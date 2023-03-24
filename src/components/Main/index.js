@@ -6,8 +6,9 @@ import background from "../../assets/Rectangle.png"
 // import ellipse1 from "../../assets/ellipse1.webp"
 // import ellipse2 from "../../assets/ellipse2.webp"
 
-function Index() {
-  const [timerDays, setTimerDays] = useState();
+function Index() 
+{
+//   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
